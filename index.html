@@ -5,34 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/b47673544b.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <div>
+    <div id="bloc-page">
       <header>
-        <div>
+        <div id="header-content">
           <div id="logo-nom-slogan">
             <a>
               <spam><img src=".\images\logo.png"></spam>
               <div id="nom-slogan">
-                <span>Micro Ferme Nermont</span>
-                <span>Produits biologique locaux</span>
+                <span id="nom">Micro Ferme Nermont</span>
+                <span id="slogan">Produits biologique locaux</span>
               </div>
             </a>
           </div>
           <nav>
             <ul>
               <li>
-                <a href="accueil.html">Accueil</a>
+                <a href="accueil.html"><i class="fa-solid fa-house"></i>Accueil</a>
               </li>
               <li>
-                <a href="nos-produit.html">Nos Produits</a>
+                <a href="nos-produit.html"><i class="fa-solid fa-basket-shopping"></i>Nos Produits</a>
               </li>
               <li>
-                <a href="a-propos.html">A propos</a>
+                <a href="a-propos.html"><i class="fa-solid fa-user"></i>A propos</a>
               </li>
               <li>
-                <a href="contact.html">Contacts</a>
+                <a href="contact.html"><i class="fa-solid fa-phone"></i>Contacts</a>
               </li>
             </ul>
           </nav>
@@ -41,12 +44,14 @@
 
       <main>
         <div>
-          <section id="banniere">
-            <img src=".\images\micro-ferme-banniere.jpg" />
-            <h1>Bienvenue à la micro ferme de Nermont Châteaudun</h1>
-            <p>Découvrez nos produits biologiques cultivés avec passion dans le respect de la nature et des traditions</p>
-            <button>Découvrir nos produits</button>
-            <button>Notre histoire</button>
+          <section id="banner">
+            <div class="ombre"></div>
+            <div id="banner-content">
+              <h1>Bienvenue à la <br> <span class="text-color-yellow">micro ferme de Nermont</span></h1>
+              <p>Découvrez nos produits biologiques cultivés avec passion dans le respect de la nature et des traditions</p>
+              <button class="btn-discover-product">Découvrir nos produits<i class="fa-solid fa-arrow-right"></i></button>
+              <button>Notre histoire</button>
+            </div>
           </section>
           <section id="pourquoi-nous">
             <h1>Pourquoi choisir nos produits ?</h1>
@@ -137,6 +142,7 @@
         </div>
       </footer>
 
-    </div>  
+    </div> 
+    <script src="https://kit.fontawesome.com/b47673544b.js" crossorigin="anonymous"></script> 
   </body>
 </html>
