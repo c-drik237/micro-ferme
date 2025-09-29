@@ -73,6 +73,8 @@ nav a:hover {
   border-radius: 10px;
 }
 
+/* section bannière */
+
 #banner {
   height: 100vh;/* pleine hauteur de l'écran */
   background: url("./images/Rapido.jpg") no-repeat center center/cover;
@@ -108,15 +110,42 @@ nav a:hover {
   opacity: 0.9;
 }
 
-.btn-discover-product {
-  background-color: #ffc800;
+.btn-style{
+  padding: 10px 20px;
   border-radius: 10px;
   border: 0 solid white;
-  padding: 10px 20px;
-  font-weight: bold;
+  opacity: 0.8;
+  font-weight:700;
   font-size: 20px;
 }
 
-.btn-discover-product i {
-  margin-left: 10px;
+.btn-discover-product {
+  background-color: #ffc800;
+  
 }
+
+.btn-histoire{
+  color: black;
+  background-color: white;
+}
+
+.btn-histoire:hover{
+  text-decoration: black;
+}
+
+.btn-discover-product:hover{
+  color: white;
+}
+
+.btn-discover-product i {
+  margin-left: 15px;
+}
+
+/* section pourquoi nous */
+
+#pourquoi-nous{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
