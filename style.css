@@ -2,13 +2,39 @@
 
 body {
   font-family: sans-serif;
-  margin: 0;
+  margin: 20px;
+  position: relative;
 }
+
+.marge-section{
+  margin-top: 60px;
+}
+
+.titre-section{
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.description-section{
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.5;
+  text-align: center;
+}
+/*
+header{
+  box-shadow: 0 0 5px black;
+  border: 0 solid white;
+}
+*/
 
 #bloc-page {
   width: 1280px;
   margin: auto;
 }
+
+
 
 #header-content {
   display: flex;
@@ -83,7 +109,6 @@ nav a:hover {
   align-items: center;
   color: white;
   text-align: center;
-  margin-top: 15px;
   width: 100%;
   position: relative;
 }
@@ -143,9 +168,50 @@ nav a:hover {
 
 /* section pourquoi nous */
 
-#pourquoi-nous{
+.section-style, .card-style{
   display: flex;
   justify-content:center;
   flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cards-bloc{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-bloc p{
+  text-align: center;
+  opacity: 0.6;
+}
+
+.card-pourquoi-nous{
+  width: 300px;
+  height: 200px;
+  border: 1px solid green;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+#nos-specialites img{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card-nos-specialites{
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-nos-specialites h4{
+  opacity: 0.7;
+}
+
+.btn-voir-produit {
+  background-color: #158840;
+  
 }
 
