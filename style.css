@@ -236,31 +236,37 @@ nav a:hover {
 
 /* styles footer*/
 
-footer {
-  background-color: rgb(41 37 36); 
+footer, .infos-ferme{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(41, 37, 36);
+  color: white;
 }
 
-.footer-infos div {
-  width: 400px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: left;
+.infos-bloc{
+  width: 425px;
   padding: 20px;
+  margin: 20px;
 }
 
-.first-bloc {
-  
+.infos-footer{
+  display: flex;
+  justify-content: space-between;
 }
 
-.logo-titre {
-  justify-content: flex-start;
-  flex-direction: row;text-align: left;
+.infos-ferme-titre-image{
+  display: flex;
+  justify-content: space-between;
 }
 
-.logo-titre h2{
-  width: 200;
+.infos-ferme-titre-image img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  vertical-align: center;
+  margin-top: 13px;
 }
 
-.copyright, hr {
-  width: 100%;
+.infos-ferme-titre-image h2{
+  margin-left: 5Opx;
 }
