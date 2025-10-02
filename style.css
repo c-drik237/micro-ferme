@@ -243,6 +243,10 @@ footer, .infos-ferme{
   color: white;
 }
 
+footer p{
+  color: rgb(168 162 158);
+}
+
 .infos-bloc{
   width: 425px;
   padding: 20px;
@@ -254,9 +258,12 @@ footer, .infos-ferme{
   justify-content: space-between;
 }
 
+.infos-footer h3 {
+  font-size: 16px;
+}
+
 .infos-ferme-titre-image{
   display: flex;
-  justify-content: space-between;
 }
 
 .infos-ferme-titre-image img{
@@ -264,9 +271,25 @@ footer, .infos-ferme{
   height: 40px;
   border-radius: 50px;
   vertical-align: center;
-  margin-top: 13px;
+  margin-top: 7px;
 }
 
 .infos-ferme-titre-image h2{
-  margin-left: 5Opx;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+footer i{
+  padding: 5px;
+}
+
+footer hr{
+  height: 0.5px;
+  width: 1200px;
+  opacity: 0.1;
+}
+
+.copyright p{
+  text-align: center;
+  font-size: 14px;
 }
