@@ -1,0 +1,161 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  position: relative;
+  background-color: #e5eee738;
+}
+
+.bloc-page {
+  width: 1280px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.description {
+  font-size: 20px;
+  color: rgb(87 83 78);
+  opacity: 0.9;
+  text-align: center;
+}
+
+.search-products {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: normal;
+  margin-top: 50px;
+}
+
+form input {
+  width: 500px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid rgb(129, 126, 126);
+}
+
+.search-products p {
+  font-size: 14px;
+  color: rgb(87 83 78);
+}
+
+.search-products p i {
+  padding: 5px;
+}
+
+.nav-products {
+  background-color: rgb(245 245 244);
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-products ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.nav-products ul li {
+  text-decoration: none;
+}
+
+.nav-products ul li a {
+  text-decoration: none;
+  color: rgb(168, 166, 166);
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.nav-products ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.produits {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card-product {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  height: 445px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.334);
+  border: 1px solid white;
+  margin: 10px;
+  background-color: white;
+}
+
+.card-product-infos {
+  padding: 15px;
+}
+
+.card-product img {
+  height: 195px;
+  object-fit: cover;
+  border-radius: 5px 0;
+}
+
+.card-product-infos h3 {
+  color: #292524;
+  font-size: 18px;
+}
+
+.card-product-description {
+  color: #57534E;
+  font-size: 14px;
+}
+
+.saison {
+  color: #72716C;
+  font-size: 12px;
+}
+
+.prix {
+  color: #16A34A;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-voir-produit {
+  background-color: #158840;
+  margin-top: 50px;
+}
+
+.btn-style {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0 solid white;
+  opacity: 0.8;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.btn-cmd{
+  display: flex;
+  justify-content: center;
+}

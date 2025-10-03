@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-products-page.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="content" class="bloc-page">
+        <div class="header">
+            <h2>Nos Produits</h2>
+            <p class="description">Découvrez notre gamme complète de produits biologiques cultivés avec <br> passion
+                dans notre ferme</p>
+            <div class="search-products">
+                <form action="#">
+                    <input type="text" placeholder="Rechercher un produit...">
+                </form>
+                <p><span><i class="fa-solid fa-filter"></i></span></span>8 produit(s)</p>
+            </div>
+        </div>
+        <div class="nav-products">
+            <ul>
+                <li>
+                    <a href="#">Tous les produits</a>
+                </li>
+                <li>
+                    <a href="#">Produits Laitiers</a>
+                </li>
+                <li>
+                    <a href="#">Fruits</a>
+                </li>
+                <li>
+                    <a href="#">Conserves</a>
+                </li>
+                <li>
+                    <a href="#">Œufs</a>
+                </li>
+                <li>
+                    <a href="#">Légumes</a>
+                </li>
+            </ul>
+        </div>
+        <div class="produits">
+            <div class="card-product">
+                <img src=".\images\cereales.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\fruit.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\oeuf.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\salade.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\fromage.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\cereales.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\fruit.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+            <div class="card-product">
+                <img src=".\images\oeuf.jpg" alt="">
+                <div class="card-product-infos">
+                    <h3>Salade verte</h3>
+                    <p class="card-product-description">Mélange de salades fraîches : laitue, roquette, épinards.
+                        Cueillies le matin même pour une
+                        fraîcheur optimale.</p>
+                    <p class="saison">Saison: Juin à septembre</p>
+                    <p class="prix">4,50€ / kg</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn-cmd">
+            <button class="btn-style btn-voir-produit">Faire une commande<i
+                            class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+</body>
+<script>
+    // Charger la navbar
+    fetch("nav.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("navbar").innerHTML = data);
+
+    // Charger le footer
+    fetch("footer.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+</html>
