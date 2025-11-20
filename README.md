@@ -1,2 +1,2 @@
 # micro-ferme
-micro ferme est une application web d'une ferme agricole qui leur permet présenter leur produit en ligne et donne la possibilité aux clients de passer des commandes
+Micro Ferme est une application web destinée à une exploitation agricole. Elle permet de présenter les produits en ligne, d’offrir aux clients la possibilité de passer des commandes, et aux fermiers de gérer facilement leur stock de produits.
